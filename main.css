@@ -1,0 +1,45 @@
+body {
+  background: #ffcf00;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #493a00;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+  border-radius: 5rem;
+  background-color: #493a00;
+  color: #ffcf00;
+  font-size: 2.3rem;
+  height: 1.8em;
+  line-height: 1.8rem;
+  padding: 0 1em;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 0 0 0.4em rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  box-shadow: 0 0 0 0.2em rgba(0, 0, 0, 0.1);
+}
+
+#target {
+  border: 5px solid #493a00;
+  outline: none;
+  padding: 1.5em 1em;
+  width: 565px;
+  max-width: 100%;
+  margin-top: 10vh;
+  margin-bottom:  3rem;
+}
